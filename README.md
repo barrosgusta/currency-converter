@@ -40,25 +40,25 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/currency-converter.git
-   cd currency-converter
-   ```
+```bash
+git clone https://github.com/your-username/currency-converter.git
+cd currency-converter
+```
 
 2. Install dependencies:
    Using npm:
 
-  ```bash
-  npm install
-  ```
+```bash
+npm install
+```
 
 ### Configuration
 
 1. Create a .env file in the root directory of the project:
 
-  ```
-  REACT_APP_EXCHANGE_API_KEY=your_actual_api_key_here
-  ```
+```
+REACT_APP_EXCHANGE_API_KEY=your_actual_api_key_here
+```
 
 Replace your_actual_api_key_here with your actual API key obtained from [ExchangeRate-API](https://www.exchangerate-api.com).
 For more information on the ExchangeRate-API, visit the [ExchangeRate-API Documentation](https://www.exchangerate-api.com/docs).
@@ -67,6 +67,6 @@ For more information on the ExchangeRate-API, visit the [ExchangeRate-API Docume
 
 To start the development server run:
   
-  ```bash
-  npm run start
-  ```
+```bash
+npm run start
+```
